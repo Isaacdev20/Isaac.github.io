@@ -1,13 +1,23 @@
+*{
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
 html,body,aside{
     height: 100%;
 }
-img {
-    display: none;
+#profile-img{
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+    width: 250px;
+    height: 250px;
+    border-radius: 25px;
 }
 
 #aside-wrap{
    background-image:  linear-gradient(to bottom right , red,rgb(0, 0, 0));
    width: 240px;
+   padding: 100px 0px 0px 20px;
+   position: fixed;  
 }
 
 #menu-list{
@@ -18,14 +28,11 @@ img {
     text-decoration: none;
     color: #ffff;
     font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
-    
+    font-size: 18px; 
 }
 
 .menu-link:hover{
     border-bottom: 2px solid  ;
-    
 }
 .menu-item{
    line-height: 3;
