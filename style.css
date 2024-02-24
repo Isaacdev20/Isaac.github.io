@@ -1,11 +1,30 @@
+/* 
+
+Deixar um bloco fixo, mesmo com rolagem ativada
+position: fixed;  
+
+*/
+
 *{
     margin: 0;
     font-family: sans-serif;
     box-sizing: border-box;
 }
-html,body,aside{
+
+html{
+    scroll-behavior: smooth;
+}
+
+section{
+    padding: 5% 0 0 300px;
+    max-width: 900px;
+}
+
+
+html,body,aside,main,section{
     height: 100%;
 }
+
 #profile-img{
     box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
     width: 250px;
@@ -36,4 +55,21 @@ html,body,aside{
 }
 .menu-item{
    line-height: 3;
+}
+
+
+/* Section-home*/
+
+#home .section-title{
+    font-size: 56px;   
+}
+#home .email-link{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: red;
+}
+#home .section-description{
+    font-size: 18px;
+    line-height: 1.3;
+    margin: 10px 0px;
 }
