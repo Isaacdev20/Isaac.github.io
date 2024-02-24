@@ -1,11 +1,29 @@
+/* 
+
+Deixar um bloco fixo, mesmo com rolagem ativada
+position: fixed;  
+
+*/
+
 *{
     margin: 0;
     font-family: sans-serif;
     box-sizing: border-box;
 }
-html,body,aside{
+
+html{
+    scroll-behavior: smooth;
+}
+
+section{
+    padding-left: 300px;
+}
+
+
+html,body,aside,main,section{
     height: 100%;
 }
+
 #profile-img{
     box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
     width: 250px;
