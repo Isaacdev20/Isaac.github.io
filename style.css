@@ -91,13 +91,13 @@ ul#social-links{
 ul#social-links > li{
     margin-right: 10px;
     display: inline-block;
-    background-color: aqua;
+    background-color: black;
 }
 
 ul#social-links > li > a{
     color: white;
     text-decoration: none;
-    padding: 15px;
+    padding: 10px;
     font-weight: bold;
     font-size: 26px;
 
