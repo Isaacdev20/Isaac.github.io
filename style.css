@@ -1,10 +1,18 @@
 /* 
 
-Deixar um bloco fixo, mesmo com rolagem ativada
+Deixar um bloco fixo, mesmo com rolagem ativada:
 position: fixed;  
 
-tirar bolas da lista 
+tirar bolas da lista :
 list-style: none;
+
+paletas de cores:
+:root{
+    --primary: #C94666;
+    --secondary: #78293d;
+    --hover:#5E2130;
+    --dark:#17080C;
+}
 
 */
 
@@ -12,6 +20,13 @@ list-style: none;
     margin: 0;
     font-family: sans-serif;
     box-sizing: border-box;
+}
+
+:root{
+    --primary: #C94666;
+    --secondary: #78293d;
+    --hover:#5E2130;
+    --dark:#17080C;
 }
 
 html{
@@ -39,7 +54,7 @@ ul:not(#menu-list){
 }
 
 #aside-wrap{
-   background-image:  linear-gradient(to bottom right , red,rgb(0, 0, 0));
+   background-image:  linear-gradient(to bottom right , var(--primary),var(--dark));
    width: 240px;
    padding: 100px 0px 0px 20px;
    position: fixed;  
@@ -72,7 +87,7 @@ ul:not(#menu-list){
 #home .email-link{
     text-decoration: none;
     text-transform: uppercase;
-    color: red;
+    color: var(--primary);
 }
 #home .section-description{
     font-size: 18px;
@@ -91,7 +106,7 @@ ul#social-links{
 ul#social-links > li{
     margin-right: 10px;
     display: inline-block;
-    background-color: black;
+    background-color: var(--secondary);
 }
 
 ul#social-links > li > a{
