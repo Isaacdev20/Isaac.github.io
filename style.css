@@ -118,13 +118,9 @@ ul#social-links > li > a{
 
 }
 
-.menu-label {
+.menu-label,#menu-check {
     display: none;
 }
-#menu-check {
-    display: none;
-  }
-
 
 /*display do mobile*/
 
@@ -165,6 +161,8 @@ ul#social-links > li > a{
     right: 0;
     background-color: #fff;
     margin: 5px;
+    z-index: 1;
+    font-size: 20px;
   }
 
   #menu-check {
