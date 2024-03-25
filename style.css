@@ -117,6 +117,43 @@ ul#social-links > li > a{
     font-size: 26px;
 
 }
+ul#tec-links{
+    list-style: none;
+    display: inline-block;
+    padding: 0px;
+}
+ul#tec-links > li{
+  margin-right: 10px;
+  display: inline-block;
+}
+ul#tec-links > li > a{
+  color: var(--secondary);
+  text-decoration: none;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 50px;
+
+}
+
+/* Experiencias */
+#experience > h4{
+  color: var(--secondary);
+  margin: 15px 0px 0px 0px ;
+  font-weight: bolder;
+}
+#experience > .date{
+  font-size: 15px;
+  margin: 0px;
+}
+
+/* projects */
+#projects > a{
+  color: var(--secondary);
+}
+#projects > p{
+  font-size: 12px;
+}
+
 
 .menu-label,#menu-check {
     display: none;
