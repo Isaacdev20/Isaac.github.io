@@ -158,12 +158,20 @@ ul#tec-links > li > a{
 .menu-label,#menu-check {
     display: none;
 }
+/* imagem no final */
+#card > img{
+  width: 600px;
+  height: 200px;
+  
+}
 
 /*display do mobile*/
 
 
 @media (max-width:600px){
-     
+   #card{
+    display: none;
+   }  
   section {
     padding: 10px;
   }
